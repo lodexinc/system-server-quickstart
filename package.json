@@ -4,6 +4,18 @@
   "description": "Server template project for System Designer",
   "main": "app.js",
   "license": "CC0-1.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/system-sdk/system-server-quickstart.git"
+  },
+  "bugs": {
+    "url": "https://github.com/system-sdk/system-server-quickstart/issues"
+  },
+  "author": {
+    "name": "erwan carriou",
+    "email": "erwan.carriou@mac.com",
+    "twitter": "@ecarriou"
+  },
   "dependencies": {
     "system-runtime": "^1.6.3"
   }
