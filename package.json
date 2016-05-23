@@ -1,5 +1,5 @@
 {
-  "name": "system-server",
+  "name": "system-server-quickstart",
   "version": "1.0.0",
   "description": "Server template project for System Designer",
   "main": "app.js",
