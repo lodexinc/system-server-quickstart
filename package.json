@@ -1,0 +1,10 @@
+{
+  "name": "system-server",
+  "version": "1.0.0",
+  "description": "Server template project for System Designer",
+  "main": "app.js",
+  "license": "CC0-1.0",
+  "dependencies": {
+    "system-runtime": "^1.6.3"
+  }
+}
