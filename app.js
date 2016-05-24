@@ -15,7 +15,7 @@ var app = require('./app.json');
 var systemId = runtime.require('db').system(admin);
 runtime.require(systemId).main();
 
-// run the app the
+// run the app
 var appId = runtime.require('db').system(app);
 runtime.require(appId).main();
 
