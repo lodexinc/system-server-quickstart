@@ -1,6 +1,6 @@
 {
   "name": "system-server-quickstart",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Server template project for System Designer",
   "main": "app.js",
   "license": "CC0-1.0",
@@ -17,6 +17,6 @@
   },
   "dependencies": {
     "system-runtime": "^1.6.3",
-    "system-admin-server": "^0.1.0"
+    "system-admin-server": "^0.1.3"
   }
 }
