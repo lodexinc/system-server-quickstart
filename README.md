@@ -2,7 +2,7 @@
 
 This is a minimal project to start a server app system.
 
-This app requires a **system-server-admin** system to enable debugging with [System Designer](https://system-designer.github.io).
+This app requires a **system-admin-server** system to enable debugging with [System Designer](https://system-designer.github.io).
 
 ## Installation
 
