@@ -6,7 +6,7 @@ global._require = require;
 var runtime = require('system-runtime');
 
 // require admin system
-var admin = require('./system-server-admin.json');
+var admin = require('system-admin-server/system-admin-server.json');
 
 // require the app
 var app = require('./app.json');
