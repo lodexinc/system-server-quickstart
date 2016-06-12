@@ -1,6 +1,5 @@
-// to get require method in global
-// to be able to use it in runtime
-global._require = require;
+// to use 'require' in runtime
+global.require = require;
 
 // require runtime
 var runtime = require('system-runtime');
