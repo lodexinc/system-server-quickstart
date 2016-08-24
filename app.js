@@ -1,22 +1,15 @@
-// to use 'require' in runtime
-global.require = require;
-
-// require runtime
 var runtime = require('system-runtime');
+var id = '';
 
-// require admin system
-var admin = require('system-admin-server');
+// install the admin
+id = runtime.install('system-admin-server');
+// start the admin
+runtime.start(id);
 
-// require the app
-var app = require('./app.json');
-
-// run admin system
-var systemId = runtime.require('db').system(admin);
-runtime.require(systemId).main();
-
-// run the app
-var appId = runtime.require('db').system(app);
-runtime.require(appId).main();
+// install the app
+id = runtime.install('app.json');
+// start the app
+runtime.start(id);
 
 // set log level for debug
 runtime.require('logger').level('debug');
